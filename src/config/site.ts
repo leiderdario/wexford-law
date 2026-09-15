@@ -63,6 +63,9 @@ export interface OfficeLocation {
   email: string;
   coordinates: { x: number; y: number }; // Percentage on minimalist world map
   timezone: string;
+  mapQuery: string;
+  gmapsUrl: string;
+  directionsUrl: string;
 }
 
 export const SITE_CONFIG = {
@@ -70,8 +73,8 @@ export const SITE_CONFIG = {
   tagline: "International Counsel & Strategic Litigation",
   founded: 2009,
   primaryEmail: "counsel@wexfordlaw.com",
-  urgentInquiries: "+1 (212) 890-4420",
-  whatsappDirect: "+12128904420",
+  urgentInquiries: "+1 (305) 890-4420",
+  whatsappDirect: "+13058904420",
   managingPartner: {
     name: "Arthur Vance Wexford",
     titleEn: "Senior Managing Partner & Lead Strategist",
@@ -316,31 +319,40 @@ export const SITE_CONFIG = {
   ] as TestimonialItem[],
   offices: [
     {
-      city: "New York",
+      city: "Miami",
       country: "United States",
-      address: "590 Madison Avenue, 32nd Floor, NY 10022",
-      phone: "+1 (212) 890-4420",
-      email: "newyork@wexfordlaw.com",
-      coordinates: { x: 28, y: 36 },
+      address: "1100 Brickell Bay Dr, Apt 5376 Miami, FL 33131, Estados Unidos",
+      phone: "+1 (305) 890-4420",
+      email: "miami@wexfordlaw.com",
+      coordinates: { x: 27, y: 44 },
       timezone: "EST / UTC-5",
+      mapQuery: "1100+Brickell+Bay+Dr,+Apt+5376,+Miami,+FL+33131",
+      gmapsUrl: "https://www.google.com/maps/search/?api=1&query=1100+Brickell+Bay+Dr+Apt+5376+Miami+FL+33131",
+      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=1100+Brickell+Bay+Dr+Apt+5376+Miami+FL+33131",
     },
     {
       city: "London",
       country: "United Kingdom",
-      address: "100 Bishopsgate, Level 24, EC2N 4AG",
+      address: "100 Bishopsgate, Level 24, EC2N 4AG, London, United Kingdom",
       phone: "+44 (20) 7946 0831",
       email: "london@wexfordlaw.com",
       coordinates: { x: 48, y: 30 },
       timezone: "GMT / UTC+0",
+      mapQuery: "100+Bishopsgate,+London+EC2N+4AG",
+      gmapsUrl: "https://www.google.com/maps/search/?api=1&query=100+Bishopsgate+London+EC2N+4AG",
+      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=100+Bishopsgate+London+EC2N+4AG",
     },
     {
       city: "Bogotá",
       country: "Colombia",
-      address: "Carrera 7 No. 71-21, Torre B, Piso 18",
+      address: "Carrera 7 No. 71-21, Torre B, Piso 18, Bogotá, Colombia",
       phone: "+57 (601) 745-9200",
       email: "bogota@wexfordlaw.com",
       coordinates: { x: 30, y: 55 },
       timezone: "COT / UTC-5",
+      mapQuery: "Carrera+7+%2371-21,+Bogota,+Colombia",
+      gmapsUrl: "https://www.google.com/maps/search/?api=1&query=Carrera+7+No+71-21+Bogota",
+      directionsUrl: "https://www.google.com/maps/dir/?api=1&destination=Carrera+7+No+71-21+Bogota",
     },
   ] as OfficeLocation[],
 };

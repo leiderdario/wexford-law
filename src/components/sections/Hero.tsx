@@ -114,7 +114,7 @@ export function Hero() {
           <span>Wexford International Chambers</span>
         </div>
         <div className="flex items-center gap-6 text-[11px] font-mono tracking-[0.2em] text-[#E2E8F0] uppercase">
-          <span className="text-[#F1F5F9] font-medium">NEW YORK / LONDON / BOGOTÁ</span>
+          <span className="text-[#F1F5F9] font-medium">MIAMI / LONDON / BOGOTÁ</span>
           <span className="hidden sm:inline text-[#D4AF37]">|</span>
           <span className="hidden sm:inline text-[#94A3B8]">High-Stakes Strategic Litigation</span>
         </div>

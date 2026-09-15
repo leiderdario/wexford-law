@@ -112,9 +112,9 @@ export function Footer() {
             </div>
             <div className="space-y-2 text-xs">
               <div>
-                <span className="text-[#64748B] block text-[10px]">NEW YORK CHAMBERS</span>
-                <a href="tel:+12128904420" className="text-[#CBD5E1] hover:text-[#D4AF37] transition-colors">
-                  +1 (212) 890-4420
+                <span className="text-[#64748B] block text-[10px]">MIAMI CHAMBERS</span>
+                <a href="tel:+13058904420" className="text-[#CBD5E1] hover:text-[#D4AF37] transition-colors">
+                  +1 (305) 890-4420
                 </a>
               </div>
               <div>

@@ -199,7 +199,7 @@ export function Navbar() {
             </MagneticButton>
 
             <div className="flex items-center justify-between text-xs font-mono text-[#94A3B8] pt-2">
-              <span>EST. 2009 — NEW YORK / LONDON / BOGOTÁ</span>
+              <span>EST. 2009 — MIAMI / LONDON / BOGOTÁ</span>
             </div>
           </div>
         </div>
