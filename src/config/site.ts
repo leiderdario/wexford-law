@@ -69,10 +69,10 @@ export interface OfficeLocation {
 }
 
 export const SITE_CONFIG = {
-  name: "Wexford Law",
+  name: "Wexford International",
   tagline: "International Counsel & Strategic Litigation",
   founded: 2009,
-  primaryEmail: "counsel@wexfordlaw.com",
+  primaryEmail: "counsel@wexfordinternational.com",
   urgentInquiries: "+1 (305) 890-4420",
   whatsappDirect: "+13058904420",
   managingPartner: {
@@ -282,8 +282,8 @@ export const SITE_CONFIG = {
   testimonials: [
     {
       id: "t-01",
-      quoteEn: "Wexford Law operates with the precision of a surgical team and the strategic acumen of chess grandmasters. When other firms saw an impenetrable deadlock, they recovered our capital.",
-      quoteEs: "Wexford Law opera con la precisión de cirujanos y la visión de grandes maestros. Cuando otras firmas veían un callejón sin salida, ellos recuperaron nuestro capital.",
+      quoteEn: "Wexford International operates with the precision of a surgical team and the strategic acumen of chess grandmasters. When other firms saw an impenetrable deadlock, they recovered our capital.",
+      quoteEs: "Wexford International opera con la precisión de cirujanos y la visión de grandes maestros. Cuando otras firmas veían un callejón sin salida, ellos recuperaron nuestro capital.",
       clientEn: "Julian H. Lancaster",
       clientEs: "Julian H. Lancaster",
       positionEn: "Managing Director, Meridian Capital Partners",
@@ -323,7 +323,7 @@ export const SITE_CONFIG = {
       country: "United States",
       address: "1100 Brickell Bay Dr, Apt 5376 Miami, FL 33131, Estados Unidos",
       phone: "+1 (305) 890-4420",
-      email: "miami@wexfordlaw.com",
+      email: "miami@wexfordinternational.com",
       coordinates: { x: 27, y: 44 },
       timezone: "EST / UTC-5",
       mapQuery: "1100+Brickell+Bay+Dr,+Apt+5376,+Miami,+FL+33131",
@@ -335,7 +335,7 @@ export const SITE_CONFIG = {
       country: "United Kingdom",
       address: "100 Bishopsgate, Level 24, EC2N 4AG, London, United Kingdom",
       phone: "+44 (20) 7946 0831",
-      email: "london@wexfordlaw.com",
+      email: "london@wexfordinternational.com",
       coordinates: { x: 48, y: 30 },
       timezone: "GMT / UTC+0",
       mapQuery: "100+Bishopsgate,+London+EC2N+4AG",
@@ -347,7 +347,7 @@ export const SITE_CONFIG = {
       country: "Colombia",
       address: "Carrera 7 No. 71-21, Torre B, Piso 18, Bogotá, Colombia",
       phone: "+57 (601) 745-9200",
-      email: "bogota@wexfordlaw.com",
+      email: "bogota@wexfordinternational.com",
       coordinates: { x: 30, y: 55 },
       timezone: "COT / UTC-5",
       mapQuery: "Carrera+7+%2371-21,+Bogota,+Colombia",

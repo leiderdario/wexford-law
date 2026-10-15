@@ -24,12 +24,12 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://wexfordlaw.com"),
-  title: "Wexford Law | International Counsel & Strategic Litigation",
+  metadataBase: new URL("https://wexfordinternational.com"),
+  title: "Wexford International | International Counsel & Strategic Litigation",
   description:
-    "Wexford Law is an elite international legal practice specializing in high-stakes capital recovery, strategic claims, cross-border corporate advisory, and uncompromising trial defense.",
+    "Wexford International is an elite international legal practice specializing in high-stakes capital recovery, strategic claims, cross-border corporate advisory, and uncompromising trial defense.",
   keywords: [
-    "Wexford Law",
+    "Wexford International",
     "International Arbitration",
     "Asset Recovery",
     "Strategic Litigation",
@@ -37,19 +37,19 @@ export const metadata: Metadata = {
     "Trial Lawyers",
     "Recuperación de Dinero",
   ],
-  authors: [{ name: "Wexford Law" }],
+  authors: [{ name: "Wexford International" }],
   openGraph: {
-    title: "Wexford Law | We Defend What Matters",
+    title: "Wexford International | We Defend What Matters",
     description:
       "Elite legal architecture for capital recovery, corporate sovereignty defense, and complex dispute resolution.",
-    url: "https://wexfordlaw.com",
-    siteName: "Wexford Law",
+    url: "https://wexfordinternational.com",
+    siteName: "Wexford International",
     images: [
       {
         url: "/images/hero-editorial.jpg",
         width: 1200,
         height: 630,
-        alt: "Wexford Law Chambers",
+        alt: "Wexford International Chambers",
       },
     ],
     locale: "en_US",

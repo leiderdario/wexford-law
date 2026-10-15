@@ -37,8 +37,8 @@ export function Footer() {
                 <span className="font-serif text-base font-bold text-[#D4AF37]">W</span>
               </div>
               <div className="flex flex-col">
-                <span className="font-serif text-xl font-bold tracking-[0.14em] text-[#FFFFFF]">
-                  WEXFORD <span className="text-[#D4AF37]">LAW</span>
+                <span className="font-serif text-lg sm:text-xl font-bold tracking-[0.14em] text-[#FFFFFF]">
+                  WEXFORD <span className="text-[#D4AF37]">INTERNATIONAL</span>
                 </span>
                 <span className="text-[9px] font-mono tracking-[0.25em] text-[#CBD5E1] uppercase">
                   Chambers of Strategic Litigation
@@ -119,8 +119,8 @@ export function Footer() {
               </div>
               <div>
                 <span className="text-[#64748B] block text-[10px]">SECURE INTAKE</span>
-                <a href="mailto:counsel@wexfordlaw.com" className="text-[#CBD5E1] hover:text-[#D4AF37] transition-colors">
-                  counsel@wexfordlaw.com
+                <a href="mailto:counsel@wexfordinternational.com" className="text-[#CBD5E1] hover:text-[#D4AF37] transition-colors">
+                  counsel@wexfordinternational.com
                 </a>
               </div>
             </div>
@@ -131,7 +131,7 @@ export function Footer() {
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pt-8 text-xs font-mono text-[#CBD5E1]">
           <div className="flex items-center gap-3">
             <Shield className="w-4 h-4 text-[#D4AF37]" />
-            <span>&copy; {new Date().getFullYear()} Wexford Law. {isEs ? "Todos los derechos reservados." : "All rights reserved."}</span>
+            <span>&copy; {new Date().getFullYear()} Wexford International. {isEs ? "Todos los derechos reservados." : "All rights reserved."}</span>
           </div>
 
           <div className="flex items-center gap-6">

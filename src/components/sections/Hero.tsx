@@ -96,7 +96,7 @@ export function Hero() {
       >
         <Image
           src="/images/hero-monumental.jpg"
-          alt="Wexford Law Global Headquarters"
+          alt="Wexford International Global Headquarters"
           fill
           priority
           className="object-cover object-center brightness-[0.42] contrast-[1.12] scale-105"
@@ -185,7 +185,7 @@ export function Hero() {
             >
               <Image
                 src="/images/hero-editorial.jpg"
-                alt="Wexford Law Strategic Counsel"
+                alt="Wexford International Strategic Counsel"
                 fill
                 priority
                 className="object-cover brightness-95 group-hover:scale-105 transition-transform duration-700 ease-out"

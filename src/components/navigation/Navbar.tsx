@@ -78,15 +78,15 @@ export function Navbar() {
           data-cursor="WEXFORD"
           className="flex items-center gap-3 text-left group select-none"
         >
-          <div className="w-8 h-8 rounded-full border border-[#C5A880]/60 flex items-center justify-center bg-[#12141A] group-hover:border-[#C5A880] transition-colors">
+          <div className="w-8 h-8 rounded-full border border-[#C5A880]/60 flex items-center justify-center bg-[#12141A] group-hover:border-[#C5A880] transition-colors flex-shrink-0">
             <span className="font-serif text-sm font-bold text-[#C5A880]">W</span>
           </div>
           <div className="flex flex-col">
-            <span className="font-serif text-base sm:text-lg font-bold tracking-[0.14em] text-[#F3F4F6] group-hover:text-[#C5A880] transition-colors leading-tight">
-              WEXFORD <span className="text-[#C5A880]">LAW</span>
+            <span className="font-serif text-base sm:text-lg font-bold tracking-[0.16em] text-[#F3F4F6] group-hover:text-[#C5A880] transition-colors leading-tight">
+              WEXFORD
             </span>
-            <span className="text-[8px] font-mono tracking-[0.25em] text-[#94A3B8] uppercase">
-              International Counsel
+            <span className="text-[7.5px] sm:text-[8px] font-mono tracking-[0.32em] text-[#C5A880]/85 group-hover:text-[#C5A880] uppercase leading-none mt-0.5 transition-colors">
+              INTERNATIONAL
             </span>
           </div>
         </button>

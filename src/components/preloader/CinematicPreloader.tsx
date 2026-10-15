@@ -55,7 +55,7 @@ export function CinematicPreloader({ onComplete }: PreloaderProps) {
         ease: "power4.inOut",
       }, "-=0.4")
 
-      // 03 Split typography reveal: "WEXFORD" + "LAW"
+      // 03 Split typography reveal: "WEXFORD" + "INTERNATIONAL"
       .to([titleLeftRef.current, titleRightRef.current], {
         yPercent: 0,
         opacity: 1,
@@ -140,12 +140,12 @@ export function CinematicPreloader({ onComplete }: PreloaderProps) {
         </div>
 
         {/* Split brand title */}
-        <div className="flex items-center gap-4 text-3xl sm:text-5xl md:text-6xl font-serif font-bold tracking-[0.18em] text-[#F3F4F6] overflow-hidden py-2">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-4 text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold tracking-[0.14em] sm:tracking-[0.18em] text-[#F3F4F6] overflow-hidden py-2 text-center">
           <span ref={titleLeftRef} className="inline-block transform">
             WEXFORD
           </span>
           <span ref={titleRightRef} className="inline-block text-[#C5A880] transform">
-            LAW
+            INTERNATIONAL
           </span>
         </div>
 
